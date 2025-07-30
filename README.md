@@ -5,12 +5,11 @@
 ### Bikeshare Data Analysis
 
 
-### Description
-Describe what your project is about and what it does
+### The project analyzes bikeshare data in Chicago, New York City, and Washington, D.C. Data assists in the following analysis: a) most popular times to rent bicycles, including days of week and month; most popular start and end locations; and trip duration. Rider specific information, such as gender, is limited to the Washington D.C. dataset. 
 
-### Files used
-Include the files used
+### Files used are bikeshare.py, chicago.csv, new_york_city.csv, and washington.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
+### Credits: For bikeshare data - Bikeshare for All (https://www.bikeshare.org) For bikeshare.py corrections - Udacity Consulting (https://www.Udacity.com)
+
 
