@@ -6,7 +6,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#Please note, Los Angeles data is now excluded.
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -65,7 +65,7 @@ def load_data(city, month, day):
     #Extract month and day from start time
     df['month'] = df['Start Time'].dt.month
     df['day_of_week']=df['Start Time'].dt.weekday_name
-    #Filter by Month
+    #Filter by Month name
     if month !='all':
        months=['january','february','march','april','may','june']
        month = months.index(month) + 1
@@ -118,7 +118,7 @@ def user_stats(df,city):
     """Displays statistics on bikeshare users."""
     print('\nCalculating User Stats...\n')
     start_time = time.time()
-    # TO DO: Display counts of user types
+    # TO DO: Display counts of user types. Note gender data available in Washington.
     user_types=df.groupby(['User Type'])['User Type'].count()
     print(user_types,"\n")
     if city !="washington":
