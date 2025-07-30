@@ -117,7 +117,7 @@ def user_stats(df,city):
     """Displays statistics on bikeshare users."""
     print('\nCalculating User Stats...\n')
     start_time = time.time()
-    # TO DO: Display counts of user types
+    # TO DO: Display counts of user types. Note gender data available in Washington.
     user_types=df.groupby(['User Type'])['User Type'].count()
     print(user_types,"\n")
     if city !="washington":
