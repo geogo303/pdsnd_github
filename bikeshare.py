@@ -1,3 +1,4 @@
+#Underlined import errors will correct when program has access to pandas and numpy
 import time
 import pandas as pd
 import numpy as np
