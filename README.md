@@ -8,6 +8,6 @@
 ### Files used are bikeshare.py, chicago.csv, new_york_city.csv, and washington.csv
 
 
-### Credits: For bikeshare data - Bikeshare for All (https://www.bikeshare.org) For bikeshare.py corrections - Udacity Consulting (https://www.Udacity.com)
+### Credits: For bikeshare data - Bikeshare for All (https://www.bikeshare.org) For bikeshare.py corrections - Udacity Consulting (https://www.Udacity.com) For code consulting services: ABC Corp (https://www.ABC.com)
 
 
